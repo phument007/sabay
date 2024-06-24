@@ -1,0 +1,22 @@
+@import url(function.css);
+.header {
+    width: 100%;
+    background-color: black;
+    padding: 20px 200px;
+    color: white;
+}
+.header > img {
+    width: 80px;
+}
+
+.navbar  {
+    width: 100%;
+    background-color: var(--color-navbar);
+    padding: 20px 200px;
+}
+.navbar > ul {
+    display: flex;
+}
+ul > .menu {
+    margin-left: 50px;
+}
